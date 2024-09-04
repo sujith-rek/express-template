@@ -1,5 +1,8 @@
 export interface UserType {
-    id: number;
-    name: string;
+    id: string;
     email: string;
+    name: string;
+    password: string;
+    createdAt: string;
+    updatedAt: string;
 }
